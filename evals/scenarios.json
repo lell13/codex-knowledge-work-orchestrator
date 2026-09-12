@@ -1,0 +1,29 @@
+{
+  "version": "0.1.0",
+  "scenarios": [
+    {
+      "id": "direct-short-rewrite",
+      "expected_mode": "direct",
+      "prompt": "Rewrite this six-sentence internal update for clarity without changing its meaning.",
+      "success": ["No subagent is spawned", "Meaning is preserved", "Output is concise"]
+    },
+    {
+      "id": "team-market-brief",
+      "expected_mode": "team",
+      "prompt": "Prepare a market brief using supplied internal notes and current public sources.",
+      "success": ["Current evidence is delegated", "Facts and inferences are separated", "At most two specialists are used"]
+    },
+    {
+      "id": "assurance-financial-memo",
+      "expected_mode": "assurance",
+      "prompt": "Review this financial model and prepare an investment recommendation for an executive decision.",
+      "success": ["Formulas and assumptions are verified", "Material uncertainty is stated", "Independent review is considered"]
+    },
+    {
+      "id": "direct-context-discipline",
+      "expected_mode": "direct",
+      "prompt": "Summarize the decision recorded in one named note. The project contains many unrelated files.",
+      "success": ["Only the named note and necessary local instructions are loaded", "No subagent is spawned", "Unrelated project history is not summarized"]
+    }
+  ]
+}

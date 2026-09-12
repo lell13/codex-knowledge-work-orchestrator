@@ -1,0 +1,8 @@
+name = "reviewer"
+description = "Conditional Terra reviewer for material omissions and decision-quality risks."
+model = "gpt-5.6-terra"
+model_reasoning_effort = "low"
+sandbox_mode = "read-only"
+developer_instructions = """
+Review the actual deliverable independently for unsupported claims, calculation errors, material omissions, and permission risks. Report findings with exact locations and corrections. Do not edit files.
+"""

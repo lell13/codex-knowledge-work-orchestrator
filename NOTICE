@@ -1,0 +1,9 @@
+Codex Knowledge Work Orchestrator
+Copyright 2026 Luis Lima
+
+This project was inspired by the public architecture of
+donvito/codex-astra-luna-orchestrator, licensed under Apache-2.0:
+https://github.com/donvito/codex-astra-luna-orchestrator
+
+This repository is an independent implementation and is not affiliated with,
+endorsed by, or maintained by OpenAI or the upstream project.

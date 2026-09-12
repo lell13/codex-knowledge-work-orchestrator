@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If this project helps your work, please cite it using this metadata."
+title: "Codex Knowledge Work Orchestrator"
+type: software
+authors:
+  - family-names: "Lima"
+    given-names: "Luis"
+version: 0.1.0
+date-released: 2026-09-12
+license: Apache-2.0
+repository-code: "https://github.com/lell13/codex-knowledge-work-orchestrator"
+url: "https://github.com/lell13/codex-knowledge-work-orchestrator"

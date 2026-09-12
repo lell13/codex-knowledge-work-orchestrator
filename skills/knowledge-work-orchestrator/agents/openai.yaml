@@ -1,0 +1,7 @@
+interface:
+  display_name: "Knowledge Work Orchestrator"
+  short_description: "Route research and business work efficiently"
+  brand_color: "#14B8A6"
+  default_prompt: "Use $knowledge-work-orchestrator to complete this knowledge-work task with the smallest useful team."
+policy:
+  allow_implicit_invocation: true

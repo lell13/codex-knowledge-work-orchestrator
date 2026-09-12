@@ -1,0 +1,23 @@
+name: Feature request
+description: Propose a measurable workflow improvement
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Knowledge-work problem
+      description: Describe the user outcome that is currently difficult.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: textarea
+    id: measure
+    attributes:
+      label: How should we evaluate it?
+      description: Name an observable quality, usage, latency, or correction metric.
