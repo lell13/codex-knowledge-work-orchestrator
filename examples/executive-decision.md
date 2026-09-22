@@ -10,4 +10,4 @@ assumptions, and the strongest reason not to choose your recommendation.
 Do not send the memo or accept any proposal.
 ```
 
-Expected routing: Assurance mode. Luna extracts comparable facts, Terra performs the decision analysis, the root drafts the memo, and Sol reviews material reasoning or omitted risk before final integration.
+Expected routing: Assurance mode. Luna extracts comparable facts, Sol performs decision analysis, and the root drafts the memo. Add an Astra review only if the reasoning or omitted risk is material enough to justify another pass.

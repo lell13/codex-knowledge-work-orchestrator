@@ -2,7 +2,7 @@
 <!-- Hallmark · pre-emit critique: P5 H5 E4 S5 R5 V5 · contrast: pass · honest: pass · chrome: pass · icons: pass -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
   <title id="title">Adaptive knowledge-work orchestration tree</title>
-  <desc id="desc">Terra routes direct work or delegates to Luna researchers, makers, and verifiers. Terra analysts and Sol reviewers are conditional.</desc>
+  <desc id="desc">Sol routes direct work or delegates to Luna researchers, makers, and verifiers. Sol analysts and Astra reviewers are conditional.</desc>
   <rect width="1200" height="760" rx="24" fill="#07111f"/>
   <g fill="none" stroke="#36526a" stroke-width="3">
     <path d="M600 158v62M600 220H214v58M600 220v58M600 220h386v58"/>
@@ -13,7 +13,7 @@
     <text x="600" y="52" fill="#7894aa" font-size="14" letter-spacing="3">PLUS-EFFICIENT PROFILE</text>
     <g>
       <rect x="410" y="74" width="380" height="84" rx="16" fill="#102e3c" stroke="#4ad8cc" stroke-width="2"/>
-      <text x="600" y="110" fill="#e7fffc" font-size="21" font-weight="700">TERRA · ROOT</text>
+      <text x="600" y="110" fill="#e7fffc" font-size="21" font-weight="700">SOL · ROOT</text>
       <text x="600" y="137" fill="#8be7df" font-size="14">scope · route · decide · integrate</text>
     </g>
     <g>
@@ -38,17 +38,17 @@
     </g>
     <g>
       <rect x="456" y="425" width="288" height="96" rx="14" fill="#102e3c" stroke="#4ad8cc"/>
-      <text x="600" y="461" fill="#e7fffc" font-size="18" font-weight="700">TERRA · ANALYST</text>
+      <text x="600" y="461" fill="#e7fffc" font-size="18" font-weight="700">SOL · ANALYST</text>
       <text x="600" y="487" fill="#8be7df" font-size="14">judgment when needed</text>
     </g>
     <g>
       <rect x="842" y="425" width="288" height="96" rx="14" fill="#33230f" stroke="#f2b94b"/>
-      <text x="986" y="461" fill="#fff4d8" font-size="18" font-weight="700">SOL · REVIEWER</text>
+      <text x="986" y="461" fill="#fff4d8" font-size="18" font-weight="700">ASTRA · REVIEWER</text>
       <text x="986" y="487" fill="#eccd91" font-size="14">conditional independent review</text>
     </g>
     <g>
       <rect x="410" y="631" width="380" height="84" rx="16" fill="#102e3c" stroke="#4ad8cc" stroke-width="2"/>
-      <text x="600" y="667" fill="#e7fffc" font-size="20" font-weight="700">TERRA · FINAL DELIVERY</text>
+      <text x="600" y="667" fill="#e7fffc" font-size="20" font-weight="700">SOL · FINAL DELIVERY</text>
       <text x="600" y="694" fill="#8be7df" font-size="14">integrated · verified · approval-aware</text>
     </g>
   </g>

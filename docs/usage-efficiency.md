@@ -12,11 +12,11 @@ The orchestrator controls the parts it can influence:
 2. Load only sources relevant to the current outcome.
 3. Give each specialist a narrow assignment instead of the full project history.
 4. Prefer Luna for bounded, high-volume execution.
-5. Use Terra when the work requires everyday judgment or integration.
-6. Add Sol only when ambiguity, consequence, or an independent challenge justifies it.
+5. Use Sol when the work requires everyday judgment or integration.
+6. Add Astra only when ambiguity, consequence, or an independent challenge justifies it.
 7. Stop researching and verifying after the acceptance criteria pass.
 
-These practices align with OpenAI's current guidance to control prompt size, limit source material, define the required output, keep `AGENTS.md` focused, limit unnecessary MCP servers, and use smaller models for routine tasks. See the official [ChatGPT pricing and usage guidance](https://learn.chatgpt.com/docs/pricing).
+These practices align with OpenAI's guidance to meet a quality target first, then use the lightest model that meets it. Plus usage varies with context, tools, reasoning, and task size. See the official [model selection guide](https://developers.openai.com/api/docs/guides/model-selection) and [ChatGPT pricing and usage guidance](https://learn.chatgpt.com/docs/pricing).
 
 ## What this project does not promise
 

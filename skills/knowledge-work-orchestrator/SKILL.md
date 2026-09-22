@@ -27,8 +27,8 @@ Treat available context and agent turns as a budget.
 
 - Load only the sources required for the current outcome.
 - Do not send full project history to a specialist when a scoped brief is sufficient.
-- Prefer Luna for bounded execution and Terra for everyday judgment.
-- Escalate to Sol only after a concrete trigger, not as ceremony.
+- Prefer Luna for bounded execution and Sol for everyday judgment.
+- Escalate to Astra only after a concrete trigger, not as ceremony.
 - Do not repeat searches, reviews, or tests after the acceptance criteria pass unless new evidence or a defect justifies another pass.
 - If two approaches are similarly reliable, choose the one with fewer handoffs and less duplicated context.
 
@@ -89,7 +89,7 @@ Keep concurrent subagents at or below the profile limit. Most Team-mode tasks ne
 
 Verify the deliverable according to its actual type. Read [artifact-verification.md](references/artifact-verification.md) before validating a spreadsheet, presentation, formal document, research report, decision memo, or public content package.
 
-Use a Sol reviewer only when an independent reasoning pass is materially useful. Skip review for routine, reversible work that already has sufficient verification.
+Use the active profile's reviewer only when an independent reasoning pass is materially useful. Skip review for routine, reversible work that already has sufficient verification.
 
 ## Authority boundary
 

@@ -36,12 +36,12 @@ Do not delegate merely because multiple roles exist. Keep concurrent agents to t
 
 Use Assurance mode for consequential outputs: public materials, financial analysis, executive recommendations, sensitive information, conflicting evidence, or changes that are costly to reverse.
 
-Assurance does not require every role. It normally adds one targeted verifier or an independent Sol reviewer after the artifact exists.
+Assurance does not require every role. It normally adds one targeted verifier or an independent reviewer after the artifact exists.
 
 ## Model ladder
 
 - **Luna:** focused retrieval, extraction, formatting, checklist verification, and bounded production.
-- **Terra:** everyday coordination, synthesis, document analysis, and work requiring sound judgment.
-- **Sol:** ambiguous reasoning, high-stakes decisions, and independent review when the consequence justifies it.
+- **Sol:** everyday coordination, synthesis, document analysis, and work requiring judgment.
+- **Astra:** demanding synthesis, ambiguous decisions, and independent review when the consequence justifies it.
 
 Role names remain stable across profiles. Model assignments are profile-specific so the project can adapt without rewriting its operating method.

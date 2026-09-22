@@ -14,4 +14,4 @@ Requirements:
 - do not contact anyone or purchase data
 ```
 
-Expected routing: Team mode with one Luna researcher. Add a Terra analyst only if the evidence requires a separate comparison pass. Sol review is unnecessary unless the memo will support a material investment.
+Expected routing: Team mode with one Luna researcher. Add a Sol analyst only if the evidence requires a separate comparison pass. Astra review is unnecessary unless the memo will support a material investment.

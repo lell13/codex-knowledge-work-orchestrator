@@ -18,7 +18,7 @@ It was created for people like its author: professionals who want to use Codex s
 
 The default strategy is deliberately economical:
 
-> **Start with Terra. Delegate bounded work to Luna. Escalate judgment to Sol.**
+> **Start direct with Sol. Delegate bounded work to Luna. Use Astra only when the decision needs it.**
 
 ## Why this exists
 
@@ -26,9 +26,9 @@ Using the strongest model for every step feels safe, but it can exhaust a Plus a
 
 This project offers a practical middle ground: reserve expensive judgment for the moments that need it and use lighter models for focused execution. The orchestrator chooses the smallest team that can materially improve the result.
 
-- **Terra** keeps the goal, makes routing decisions, and integrates the final deliverable.
+- **Sol** keeps the goal, makes routing decisions, and integrates the final deliverable.
 - **Luna** handles focused research, production, extraction, and verification.
-- **Sol** enters only when ambiguity, consequence, or independent review earns the additional cost.
+- **Astra** enters only when ambiguity, consequence, or independent review earns the additional usage.
 - **The user** keeps final authority over publication, external communication, spending, permissions, and irreversible actions.
 
 This approach is designed to reduce avoidable usage; it cannot guarantee a fixed token saving or a specific number of additional messages. Task size, context, tools, model behavior, and product limits all affect actual usage.
@@ -45,8 +45,8 @@ This approach is designed to reduce avoidable usage; it cannot guarantee a fixed
 | Principle | What the orchestrator does |
 | --- | --- |
 | Start small | Uses Direct mode unless delegation has a concrete benefit |
-| Match model to work | Routes routine execution to Luna and everyday judgment to Terra |
-| Escalate on evidence | Uses Sol only for ambiguity, consequence, or useful independent review |
+| Match model to work | Routes routine execution to Luna and everyday judgment to Sol |
+| Escalate on evidence | Uses Astra only for difficult synthesis, material consequence, or useful independent review |
 | Keep context lean | Gives each specialist only the files and instructions required for its assignment |
 | Stop when done | Avoids repeated research, reviews, and tests after the acceptance criteria pass |
 
@@ -70,14 +70,14 @@ The root classifies every request before delegating:
 
 | Role | Model | Reasoning | Purpose |
 | --- | --- | --- | --- |
-| Root | GPT-5.6 Terra | medium | Scope, route, decide, integrate |
-| Researcher | GPT-5.6 Luna | medium | Find and extract evidence |
-| Maker | GPT-5.6 Luna | medium | Produce bounded artifacts |
-| Verifier | GPT-5.6 Luna | low | Check requirements and consistency |
-| Analyst | GPT-5.6 Terra | medium | Handle judgment-heavy analysis |
-| Reviewer | GPT-5.6 Sol | low | Review material risk independently |
+| Root | GPT-6 Sol | medium | Scope, route, decide, integrate |
+| Researcher | GPT-6 Luna | medium | Find and extract evidence |
+| Maker | GPT-6 Luna | medium | Produce bounded artifacts |
+| Verifier | GPT-6 Luna | low | Check requirements and consistency |
+| Analyst | GPT-6 Sol | medium | Handle judgment-heavy analysis when a separate pass helps |
+| Reviewer | GPT-6 Astra | medium | Review material risk independently when needed |
 
-Sol review is conditional. The orchestrator does not spawn every role mechanically.
+Astra review is conditional. The orchestrator does not spawn every role mechanically. A root-only run is often the most efficient path.
 
 ## Install
 
@@ -114,9 +114,9 @@ The installer adds project-scoped Codex configuration and the `knowledge-work-or
 
 Available profiles:
 
-- `plus-efficient`: Terra root, Luna specialists, conditional Sol review. Recommended.
-- `plus-economy`: Luna root and specialists, conditional Terra analysis/review.
-- `plus-quality`: Sol root, Luna/Terra specialists, conditional Sol review.
+- `plus-efficient`: Sol root, Luna specialists, conditional Astra review. Recommended.
+- `plus-economy`: Luna root and specialists, conditional Sol analysis/review.
+- `plus-quality`: Astra root, Luna/Sol specialists, conditional Sol review.
 
 Read [Choosing a profile](docs/choosing-a-profile.md) for the trade-offs.
 For the rationale behind each assignment, see [Model selection](docs/model-selection.md).

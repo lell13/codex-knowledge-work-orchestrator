@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 PROFILES = ("plus-efficient", "plus-economy", "plus-quality")
 ROLES = ("researcher", "analyst", "maker", "verifier", "reviewer")
-MODELS = {"gpt-5.6-luna", "gpt-5.6-terra", "gpt-5.6-sol"}
+MODELS = {"gpt-6-luna", "gpt-6-sol", "gpt-6-astra"}
 EFFORTS = {"low", "medium", "high", "xhigh", "max"}
 
 

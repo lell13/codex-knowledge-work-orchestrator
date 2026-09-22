@@ -9,4 +9,4 @@ using them. Flag missing definitions instead of inventing them. Preserve the
 original workbook and create a new reviewed copy if edits are required.
 ```
 
-Expected routing: Team or Assurance mode depending on materiality. A Luna verifier checks formulas and ranges; Terra interprets the business implications. Sol review is reserved for consequential financial decisions.
+Expected routing: Team or Assurance mode depending on materiality. A Luna verifier checks formulas and ranges; Sol interprets the business implications. Astra review is reserved for consequential financial decisions.
